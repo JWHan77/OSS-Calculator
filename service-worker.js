@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-calculator/precache-manifest.d34551b72ed899e13a0e91294c835301.js"
+  "/OSS-Calculator/public/index.html/precache-manifest.fca3ffd1a70d2bb98b5fe542f43b6b1b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/react-calculator/index.html", {
+workbox.routing.registerNavigationRoute("/OSS-Calculator/public/index.html/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
