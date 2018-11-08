@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/OSS-Calculator/public/index.html/precache-manifest.fca3ffd1a70d2bb98b5fe542f43b6b1b.js"
+  "/OSS-Calculator/precache-manifest.99c18792ecf0b56f4093257459ed2605.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/OSS-Calculator/public/index.html/index.html", {
+workbox.routing.registerNavigationRoute("/OSS-Calculator/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
